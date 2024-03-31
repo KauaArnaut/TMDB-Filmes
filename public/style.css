@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #032541;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.navegaçao-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navegaçao-links li {
+  padding: 0 15px;
+}
+
+.navegaçao-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.acoes {
+  display: flex;
+  margin-left: auto;
+  font-size: 18px;
+}
+
+.acoes a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.logo-mais {
+  display: flex;
+}
+
+.logo-mais img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.filmes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.filme-item {
+  width: 200px;
+  margin: 10px;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.filme-banner {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.filme-info {
+  padding: 10px;
+}
+
+.FilmesPopulares {
+  display: flex;
+}
+
+.FilmesPopulares p {
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 30px;
+}
